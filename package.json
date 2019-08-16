@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "clean:all": "yarn run clean && rm -rf node_modules",
+    "docusaurus-init": "docusaurus-init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "docusaurus-init": "^1.12.0"
+  }
+}
